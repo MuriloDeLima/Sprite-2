@@ -1,0 +1,11 @@
+#anima-div{
+    background: url("../imgs/undertale.png") -0px -195px;
+    width: 70px;
+    height: 62px;
+    animation: anima-sprite 1s steps(4) infinite;
+}
+
+@keyframes anima-sprite{
+    100% {background-position-x: -768px;}
+}
+
